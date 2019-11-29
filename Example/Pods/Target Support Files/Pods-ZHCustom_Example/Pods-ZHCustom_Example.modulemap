@@ -1,0 +1,6 @@
+framework module Pods_ZHCustom_Example {
+  umbrella header "Pods-ZHCustom_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,6 +7,7 @@
 //
 
 #import "ZHViewController.h"
+#import <ZHCustom/CustomLabel.h>
 
 @interface ZHViewController ()
 
@@ -17,13 +18,18 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    CustomLabel *label = [[CustomLabel alloc] init];
+    label.text = @"收款登记后方可手机号对方";
+    label.frame = CGRectMake(10, 200, 300, 40);
+    [self.view addSubview:label];
+
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+
 }
 
 @end

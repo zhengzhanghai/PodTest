@@ -1,0 +1,6 @@
+framework module ZHCustom {
+  umbrella header "ZHCustom-umbrella.h"
+
+  export *
+  module * { export * }
+}

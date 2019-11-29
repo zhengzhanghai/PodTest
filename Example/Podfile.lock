@@ -1,0 +1,16 @@
+PODS:
+  - ZHCustom (0.1.0)
+
+DEPENDENCIES:
+  - ZHCustom (from `../`)
+
+EXTERNAL SOURCES:
+  ZHCustom:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZHCustom: 73a74d9092c63d8a9bed46b81371761296e833fe
+
+PODFILE CHECKSUM: aee5c716bf4810c31882b172759e14c00f57165a
+
+COCOAPODS: 1.8.3
