@@ -11,7 +11,7 @@
 
 - (instancetype)initWithFrame:(CGRect)frame {
     if ([super initWithFrame:frame]) {
-        self.backgroundColor = [UIColor brownColor];
+        self.backgroundColor = [UIColor purpleColor];
         self.textColor = [UIColor whiteColor];
     }
     return self;
