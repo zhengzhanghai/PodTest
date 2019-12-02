@@ -11,6 +11,17 @@
 
 @implementation ZHImageView
 
+- (instancetype)initWithFrame:(CGRect)frame {
+    if ([super initWithFrame:frame]) {
+        
+        NSString *bundlePath = [[NSBundle mainBundle] pathForResource:@"ZHCustom" ofType:@"bundle"];
+        NSBundle *bundle = [NSBundle bundleWithPath:bundlePath];
+        self.image = [UIImage imageWithContentsOfFile:[bundle pathForResource:@"111" ofType:@"jpg"]];
+//        self.image = [UIImage imageNamed:@"111.jpg"];
+    }
+    return self;
+}
+
 - (void)setImageUrl:(NSString *)url {
     [self sd_setImageWithURL:[NSURL URLWithString:url]];
 }

@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZHCustom'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'test description'
 
 # This description is used to generate tags and improve search results.
@@ -24,10 +24,10 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'ZHCustom/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'ZHCustom' => ['ZHCustom/Assets/*.png']
-  # }
+#  s.resource = 'ZHCustom/Assets/ZHCustom.bundle'
+   s.resource_bundles = {
+     'ZHCustom' => ['ZHCustom/Assets/111.jpg']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

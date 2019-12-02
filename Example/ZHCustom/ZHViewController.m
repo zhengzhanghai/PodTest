@@ -27,10 +27,10 @@
 
     
     ZHImageView *imageView = [[ZHImageView alloc] init];
-    [imageView setImageUrl:@"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1575289750083&di=33c21c1156189072ee97497e9b9df265&imgtype=0&src=http%3A%2F%2Fimg3.doubanio.com%2Fview%2Fgroup_topic%2Fl%2Fpublic%2Fp158770015.jpg"];
+//    [imageView setImageUrl:@"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1575289750083&di=33c21c1156189072ee97497e9b9df265&imgtype=0&src=http%3A%2F%2Fimg3.doubanio.com%2Fview%2Fgroup_topic%2Fl%2Fpublic%2Fp158770015.jpg"];
     imageView.frame = CGRectMake(10, 300, 300, 300);
     [self.view addSubview:imageView];
-    
+
 }
 
 - (void)didReceiveMemoryWarning
