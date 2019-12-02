@@ -11,6 +11,7 @@
 #endif
 
 #import "CustomLabel.h"
+#import "ZHImageView.h"
 
 FOUNDATION_EXPORT double ZHCustomVersionNumber;
 FOUNDATION_EXPORT const unsigned char ZHCustomVersionString[];

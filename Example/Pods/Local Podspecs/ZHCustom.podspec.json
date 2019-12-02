@@ -1,9 +1,9 @@
 {
   "name": "ZHCustom",
   "version": "0.1.0",
-  "summary": "A short description of ZHCustom.",
+  "summary": "test description",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/zhengzhanghai/ZHCustom",
+  "homepage": "https://github.com/zhengzhanghai/PodTest.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,16 @@
     "zhengzhanghai": "zzh_xiaohai@163.com"
   },
   "source": {
-    "git": "https://github.com/zhengzhanghai/ZHCustom.git",
+    "git": "https://github.com/zhengzhanghai/PodTest.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "ZHCustom/Classes/**/*"
+  "source_files": "ZHCustom/Classes/**/*",
+  "dependencies": {
+    "SDWebImage": [
+
+    ]
+  }
 }

@@ -1,16 +1,25 @@
 PODS:
-  - ZHCustom (0.1.0)
+  - SDWebImage (5.3.2):
+    - SDWebImage/Core (= 5.3.2)
+  - SDWebImage/Core (5.3.2)
+  - ZHCustom (0.1.0):
+    - SDWebImage
 
 DEPENDENCIES:
   - ZHCustom (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - SDWebImage
 
 EXTERNAL SOURCES:
   ZHCustom:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ZHCustom: 73a74d9092c63d8a9bed46b81371761296e833fe
+  SDWebImage: 6ac2eb96571bff96ecde31a987172c5934a0eb7d
+  ZHCustom: 01324fbdf9644ec0b7673b90bb44db384d11d16f
 
-PODFILE CHECKSUM: aee5c716bf4810c31882b172759e14c00f57165a
+PODFILE CHECKSUM: 9e1b87ada19c1e57f96231739954999d4b3083a9
 
 COCOAPODS: 1.8.3

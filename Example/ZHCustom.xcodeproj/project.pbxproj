@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0C5AAB364DBE362AABF8AD94 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		0C5AAB364DBE362AABF8AD94 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		4A5AD2CEECCE43C4F5BE42CF /* Pods-ZHCustom_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHCustom_Example.debug.xcconfig"; path = "Target Support Files/Pods-ZHCustom_Example/Pods-ZHCustom_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		5E87AB678BDBCDB086F32DE5 /* Pods_ZHCustom_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZHCustom_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* ZHCustom_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZHCustom_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,9 +61,9 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72319331BB4607A5EE81B64C /* Pods-ZHCustom_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHCustom_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ZHCustom_Tests/Pods-ZHCustom_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		86DC71C3AB90AC0E02FE036F /* ZHCustom.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZHCustom.podspec; path = ../ZHCustom.podspec; sourceTree = "<group>"; };
+		86DC71C3AB90AC0E02FE036F /* ZHCustom.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZHCustom.podspec; path = ../ZHCustom.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8DF192B68733F46A5DE24CD9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8DF192B68733F46A5DE24CD9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		8F4FC5C0BE4F26D73E896408 /* Pods_ZHCustom_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZHCustom_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8C590AB64A8A25F280C923E /* Pods-ZHCustom_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHCustom_Example.release.xcconfig"; path = "Target Support Files/Pods-ZHCustom_Example/Pods-ZHCustom_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F25312AD03860D0ECBCD4B82 /* Pods-ZHCustom_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHCustom_Tests.release.xcconfig"; path = "Target Support Files/Pods-ZHCustom_Tests/Pods-ZHCustom_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -103,7 +103,6 @@
 				72319331BB4607A5EE81B64C /* Pods-ZHCustom_Tests.debug.xcconfig */,
 				F25312AD03860D0ECBCD4B82 /* Pods-ZHCustom_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -346,10 +346,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-ZHCustom_Example/Pods-ZHCustom_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/ZHCustom/ZHCustom.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZHCustom.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
