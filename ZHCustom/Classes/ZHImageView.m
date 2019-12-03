@@ -13,11 +13,8 @@
 
 - (instancetype)initWithFrame:(CGRect)frame {
     if ([super initWithFrame:frame]) {
-        
-        NSString *bundlePath = [[NSBundle mainBundle] pathForResource:@"ZHCustom" ofType:@"bundle"];
-        NSBundle *bundle = [NSBundle bundleWithPath:bundlePath];
+        NSBundle *bundle = [NSBundle bundleWithPath:[[NSBundle bundleForClass:[self class]] pathForResource:@"ZHCustom" ofType:@"bundle"]];
         self.image = [UIImage imageWithContentsOfFile:[bundle pathForResource:@"111" ofType:@"jpg"]];
-//        self.image = [UIImage imageNamed:@"111.jpg"];
     }
     return self;
 }
