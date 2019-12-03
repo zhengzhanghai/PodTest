@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZHCustom'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'test description'
 
 # This description is used to generate tags and improve search results.
@@ -27,6 +27,9 @@ TODO: Add long description of the pod here.
   s.resource = 'ZHCustom/Assets/ZHCustom.bundle'
 #   s.resource_bundles = {
 #     'ZHCustom' => ['ZHCustom/Assets/111.jpg']
+#   }
+#   s.resource_bundles = {
+#     'ZHCustom'
 #   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'

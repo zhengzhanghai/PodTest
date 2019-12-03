@@ -2,7 +2,7 @@ PODS:
   - SDWebImage (5.3.3):
     - SDWebImage/Core (= 5.3.3)
   - SDWebImage/Core (5.3.3)
-  - ZHCustom (0.1.3):
+  - ZHCustom (0.1.4):
     - SDWebImage
 
 DEPENDENCIES:
@@ -18,7 +18,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   SDWebImage: 51ab1ce3ebd20dec6665ae8ba25c928da323db41
-  ZHCustom: f043f2b5102e2f79cc16301031ac893266fa5d7c
+  ZHCustom: 8f5fa474d4ad1166834ae00363ee4214be013096
 
 PODFILE CHECKSUM: 9e1b87ada19c1e57f96231739954999d4b3083a9
 
